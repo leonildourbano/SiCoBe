@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+a.btn.btn-primary {
+    /*    background-color: #d5d5d5;*/
+    border: #000;
+    font-size: 14px;
+}
+
+a.btn.btn-danger {
+    background-color: #d5d5d5;
+    border: #000;
+    color: #000;
+    font-size: 14px;
+}
+
+a.btn.btn-info {
+    background-color: #d5d5d5;
+    border: #000;
+    color: #000;
+    font-size: 14px;
+}
+
+a.btn.btn-success {
+    background-color: #d5d5d5;
+    border: #000;
+    color: #000;
+    font-size: 14px;
+}
+

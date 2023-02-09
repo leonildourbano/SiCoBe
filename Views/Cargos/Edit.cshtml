@@ -1,0 +1,240 @@
+﻿<!doctype html>
+<html lang="pt-br">
+
+@model ProjetoSisConBens.Models.Cargo
+
+@{
+    ViewData["Title"] = "Cargo.Editar.";
+}
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/333b0ca1b3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>SiCoBe\Cargos</title>
+
+</head>
+
+
+
+<body>
+    <div class="container">
+
+        <h4><strong>Editar o Cargo</strong></h4>
+        <hr />
+
+        <div>
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="CargoId" />
+
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-6">
+                        <strong>
+                            <label asp-for="CargoDescricao" class="control-label"></label>
+                        </strong>
+                        <select asp-for="CargoDescricao" class="form-control">
+                            <option>--- selecione ---</option>
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Diretor(a)")
+                            {
+                                <option value="Diretor(a)" selected>Diretor(a)</option>
+                            }
+                            else
+                            {
+                                <option value="Diretor(a)">Diretor(a)</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Secretário(a)")
+                            {
+                                <option value="Secretário(a)" selected>Secretário(a)</option>
+                            }
+                            else
+                            {
+                                <option value="Secretário(a)">Secretário(a)</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Presidente")
+                            {
+                                <option value="Presidente" selected>Presidente</option>
+                            }
+                            else
+                            {
+                                <option value="Presidente">Presidente</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Auxiliar Serviços Gerais")
+                            {
+                                <option value="Auxiliar Serviços Gerais" selected>Auxiliar Serviços Gerais</option>
+                            }
+                            else
+                            {
+                                <option value="Auxiliar Serviços Gerais">Auxiliar Serviços Gerais</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Motorista")
+                            {
+                                <option value="Motorista" selected>Motorista</option>
+                            }
+                            else
+                            {
+                                <option value="Motorista">Motorista</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Programador(a)")
+                            {
+                                <option value="Programador(a)" selected>Programador(a)</option>
+                            }
+                            else
+                            {
+                                <option value="Programador(a)">Programador(a)</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Torneiro Mecânico")
+                            {
+                                <option value="Torneiro Mecânico" selected>Torneiro Mecânico</option>
+                            }
+                            else
+                            {
+                                <option value="Torneiro Mecânico">Torneiro Mecânico</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Copeiro(a)")
+                            {
+                                <option value="Copeiro(a)" selected>Copeiro(a)</option>
+                            }
+                            else
+                            {
+                                <option value="Copeiro(a)">Copeiro(a)</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoDescricao) == "Vice-presidente")
+                            {
+                                <option value="Vice-presidente" selected>Vice-presidente</option>
+                            }
+                            else
+                            {
+                                <option value="Vice-presidente">Vice-presidente</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CargoDescricao" class="text-danger"></span>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>
+                            <label asp-for="CargoInstrucao" class="control-label"></label>
+                        </strong>
+                        <select asp-for="CargoInstrucao" class="form-control">
+                            <option>--- selecione ---</option>
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Ensino Fundamental")
+                            {
+                                <option value="Ensino Fundamental" selected>Ensino Fundamental</option>
+                            }
+                            else
+                            {
+                                <option value="Ensino Fundamental">Ensino Fundamental</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Segundo Grau Completo")
+                            {
+                                <option value="Segundo Grau Completo" selected>Segundo Grau Completo</option>
+                            }
+                            else
+                            {
+                                <option value="Segundo Grau Completo">Segundo Grau Completo</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Segundo Grau Técnico(a)")
+                            {
+                                <option value="Segundo Grau Técnico" selected>Segundo Grau Técnico</option>
+                            }
+                            else
+                            {
+                                <option value="Segundo Grau Técnico">Segundo Grau Técnico</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Segundo Grau Técnico")
+                            {
+                                <option value="Segundo Grau Técnico" selected>Segundo Grau Técnico</option>
+                            }
+                            else
+                            {
+                                <option value="Segundo Grau Técnico">Segundo Grau Técnico</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Superior")
+                            {
+                                <option value="Superior" selected>Superior</option>
+                            }
+                            else
+                            {
+                                <option value="Superior">Superior</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Superior + Especialização")
+                            {
+                                <option value="Superior + Especialização(a)" selected>Superior + Especialização(a)</option>
+                            }
+                            else
+                            {
+                                <option value="Superior + Especialização(a)">Superior + Especialização(a)</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Mestrado")
+                            {
+                                <option value="Mestrado" selected>Mestrado</option>
+                            }
+                            else
+                            {
+                                <option value="Mestrado">Mestrado</option>
+                            }
+
+                            @if (@Html.DisplayNameFor(model => model.CargoInstrucao) == "Doutorado")
+                            {
+                                <option value="Doutorado" selected>Doutorado</option>
+                            }
+                            else
+                            {
+                                <option value="Doutorado">Doutorado</option>
+                            }
+                        </select>
+                        <span asp-validation-for="CargoInstrucao" class="text-danger"></span>
+           
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <br />
+                    <strong>
+                        <input type="submit" value="Gravar" class="btn btn-primary" /> |
+                        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+                    </strong>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<HTML lang="pt-br">
+
+@model IEnumerable<ProjetoSisConBens.Models.Inventario>
+
+@{
+    ViewData["Title"] = "Inventário.Index.";
+}
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/333b0ca1b3.js" crossorigin="anonymous"></script>
+
+    <title>SiCoBe\Inventários</title>
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <h4><strong>Relação de Inventários</strong></h4>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary"><strong>Cadastrar novo</strong></a>
+        </p>
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th>
+                        <strong>
+                            @Html.DisplayNameFor(model => model.InventarioDescricao)
+                        </strong>
+                    </th>
+                    <th>
+                        <strong>
+                            @Html.DisplayNameFor(model => model.InventarioDatainicio)
+                        </strong>
+                    </th>
+                    <th>
+                        <strong>
+                            @Html.DisplayNameFor(model => model.InventarioDatatermino)
+                        </strong>
+                    </th>
+                    <th>
+                        <strong>
+                            @Html.DisplayNameFor(model => model.InventarioMemoria)
+                        </strong>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InventarioDescricao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InventarioDatainicio)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InventarioDatatermino)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.InventarioMemoria)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.InventarioId" class="btn btn-success"><strong>Editar</strong></a> |
+                            <a asp-action="Details" asp-route-id="@item.InventarioId" class="btn btn-info"><strong>Detalhes</strong></a> |
+                            <a asp-action="Delete" asp-route-id="@item.InventarioId" class="btn btn-danger"><strong>Excluir</strong></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+</body>
+</HTML>
+
+@section Scripts {
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('#table_id').DataTable();
+        });
+    </script>
+}

@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjetoSisConBens
+build_property.RootNamespace = ProjetoSisConBens
+build_property.ProjectDir = C:\Diversos\CursoAspNet\ProjetoSisConBens\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Diversos\CursoAspNet\ProjetoSisConBens
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Bens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Bens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Bens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Bens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Bens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cargos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cargos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cargos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cargos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cargos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Cidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Colaboradores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Colaboradores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Colaboradores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Colaboradores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Colaboradores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Home/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Inventarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Inventarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Inventarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Inventarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Inventarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Unidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Unidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Unidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Unidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Unidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVW5pZGFkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Diversos/CursoAspNet/ProjetoSisConBens/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3xgoik5g0w

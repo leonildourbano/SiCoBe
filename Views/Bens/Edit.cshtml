@@ -1,0 +1,200 @@
+﻿<!doctype html>
+<html lang="pt-br">
+
+@model ProjetoSisConBens.Models.Bem
+@{
+    ViewData["Title"] = "Bens.Editar.";
+}
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/333b0ca1b3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js" />
+    <title>SiCoBe\Bens</title>
+
+</head>
+
+<body>
+    <h4><strong>Edição de Bens</strong></h4>
+    <hr />
+
+
+    <div class="container" bord>
+        <form asp-action="Edit" class="form-floating">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BemId" />
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-12">
+                                    <strong>
+                                        <label asp-for="BemDescricao" class="control-label"></label>
+                                    </strong>
+                                    <input asp-for="BemDescricao" class="form-control" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <strong>
+                                    <label asp-for="BemDataaquisicao" class="control-label"></label>
+                                </strong>
+                                <input asp-for="BemDataaquisicao" class="form-control" />
+
+                            </div>
+                            <div class="col-sm-3">
+                                <strong>
+                                    <label asp-for="BemValoraquisicao" class="control-label"></label>
+                                </strong>
+                                <input asp-for="BemValoraquisicao" class="form-control" />
+
+                            </div>
+                            <div class="col-sm-3">
+                                <strong>
+                                    <label asp-for="BemStatus" class="control-label"></label>
+                                </strong>
+                                <select asp-for="BemStatus" class="form-control">
+                                    <option>--- selecione ---</option>
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Ativo")
+                                    {
+                                        <option value="Ativo" selected>Ativo</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Ativo">Ativo</option>
+                                    }
+
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Aguardando manutenção")
+                                    {
+                                        <option value="Aguardando manutenção" selected>Aguardando manutenção</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Aguardando manutenção">Aguardando manutenção</option>
+                                    }
+
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Inservível")
+                                    {
+                                        <option value="Inservível" selected>Inservível</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Inservível">Inservível</option>
+                                    }
+
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Para alienação")
+                                    {
+                                        <option value="Para alienação" selected>Para alienação</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Para alienação">Para alienação</option>
+                                    }
+
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Doado")
+                                    {
+                                        <option value="Doado" selected>Doado</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Doado">Doado</option>
+                                    }
+
+                                    @if (@Html.DisplayNameFor(model => model.BemStatus) == "Leiloado / Vendido")
+                                    {
+                                        <option value="Leiloado / Vendido" selected>Leiloado / Vendido</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Leiloado / Vendido">Leiloado / Vendido</option>
+                                    }
+
+                                    
+                                </select>
+                                <span asp-validation-for="BemStatus" class="text-danger"></span>
+
+                            </div>
+                            <div class="col-sm-3">
+                                <strong>
+                                    <label asp-for="BemDatastatus" class="control-label"></label>
+                                </strong>
+                                <input asp-for="BemDatastatus" class="form-control" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="col-sm-4">
+
+                            <br />
+
+                            <strong>
+                                <label asp-for="BemImagem" class="w-40">Foto do Bem</label>
+                            </strong>
+                            <div class="message-box pd-x-28 error">
+                                <span asp-validation-for="BemImagem"> </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row border">
+                        <div class="row justify-content-md-center">
+                            <div class="col-sm-6">
+                                <strong>
+                                    <label asp-for="UnidadeId" class="control-label"></label>
+                                </strong>
+                                <select asp-for="UnidadeId" class="form-control" asp-items="ViewBag.UnidadeId"></select>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <strong>
+                                    <label asp-for="InventarioId" class="control-label"></label>
+                                </strong>
+                                <select asp-for="InventarioId" class="form-control" asp-items="ViewBag.InventarioId"></select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br />
+            <div class="form-group">
+                <br />
+                <strong>
+                    <input type="submit" value="Gravar" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+                </strong>
+            </div>
+
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        <script src="@Url.Content("~/js/jquery.validate.pt-Br.js")"></script>
+
+    }
+
+
+</body>
+
+</html>
